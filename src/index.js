@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'tailwindcss/tailwind.css';
+import { ProductProvider } from './contexts/ProductContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <ProductProvider>
     <App />
-  </React.StrictMode>
+  </ProductProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
