@@ -29,7 +29,7 @@ const CartItem = ({ cartItem, count, onPriceUpdate }) => {
     <div className='lg:flex lg:items-center mt-4 px-2 lg:px-0'>
       {itemCount > 0 && (
         <>
-          <a href={`/product/${cartItem.id}`}>
+          <a href={`./product/${cartItem.id}`}>
             <figure className='w-56 min-w-full flex-shrink-0 rounded-2xl overflow-hidden px-4 py-4 bg-white'>
               <img
                 src={cartItem.image}
@@ -40,7 +40,7 @@ const CartItem = ({ cartItem, count, onPriceUpdate }) => {
           </a>
           <div className='card-body px-1 lg:px-12'>
             <h2 className='card-title'>
-              <a className='link link-hover' href={`/product/${cartItem.id}`}>
+              <a className='link link-hover' href={`./product/${cartItem.id}`}>
                 {cartItem.title}
               </a>
             </h2>

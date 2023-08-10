@@ -32,7 +32,7 @@ const Detail = ({ props }) => {
             </figure>
             <div className='card-body px-1 lg:px-12'>
               <Link
-                to={`/product/${productInfo.id}`}
+                to={`./product/${productInfo.id}`}
                 state={{ productInfo: productInfo }}
                 key={productInfo.id}
               >
@@ -53,7 +53,7 @@ const Detail = ({ props }) => {
                 <button className='btn btn-primary' onClick={clickAddToCart}>
                   장바구니에 담기
                 </button>
-                <a className='btn btn-outline ml-1' href='/cart'>
+                <a className='btn btn-outline ml-1' href='./cart'>
                   장바구니로 이동
                 </a>
               </div>
