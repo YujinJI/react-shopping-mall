@@ -43,9 +43,7 @@ const Detail = ({ props }) => {
               </Link>
               <p>{productInfo.description}</p>
               <div className='flex items-center mt-3'>
-                <div className='rating rating-half text-red-500'>
-                  <StarRating rating={productInfo.rating.rate} />
-                </div>
+                <StarRating rating={productInfo.rating.rate} />
                 <div className='ml-2'>
                   {productInfo.rating.rate} / {productInfo.rating.count} 참여
                 </div>
