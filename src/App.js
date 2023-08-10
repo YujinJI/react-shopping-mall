@@ -16,7 +16,7 @@ function App() {
   const { fashionProducts, accessoryProducts, digitalProducts } =
     useContext(ProductContext);
   return (
-    <BrowserRouter basename={"https://yujinji.github.io/react-shop/"}>
+    <BrowserRouter basename={"https://yujinji.github.io/react-shopping-mall/"}>
       <input type='checkbox' id='side-menu' className='drawer-toggle' />
       <section className='drawer-content'>
         <Header />

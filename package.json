@@ -2,7 +2,7 @@
   "name": "shopping-mall",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yujinji.github.io/react-shop/",
+  "homepage": "https://yujinji.github.io/react-shopping-mall/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
