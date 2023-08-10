@@ -7,7 +7,7 @@ import Home from './components/Home';
 import { ProductContext } from './contexts/ProductContext';
 // import MainCarousel from './components/MainCarousel';
 // import Products from './components/Products';
-import {BrowserRouter, HashRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { useContext } from 'react';
 import Cart from './components/Cart';
 import SideMenu from './components/SideMenu';
@@ -16,7 +16,7 @@ function App() {
   const { fashionProducts, accessoryProducts, digitalProducts } =
     useContext(ProductContext);
   return (
-    <HashRouter>
+    <BrowserRouter>
       <input type='checkbox' id='side-menu' className='drawer-toggle' />
       <section className='drawer-content'>
         <Header />
@@ -57,7 +57,7 @@ function App() {
         <Footer />
       </section>
       <SideMenu />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
