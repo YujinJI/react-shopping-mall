@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-shopping-mall/static/css/main.376e9ee2.css",
+    "main.js": "/react-shopping-mall/static/js/main.785176ec.js",
+    "static/js/787.3f37af5e.chunk.js": "/react-shopping-mall/static/js/787.3f37af5e.chunk.js",
+    "static/media/discover.svg": "/react-shopping-mall/static/media/discover.65792c8449e0b1b724f3ec6f47c928e2.svg",
+    "static/media/americanExpress.svg": "/react-shopping-mall/static/media/americanExpress.c968f37a0b2096bd47ad3ab85eddc015.svg",
+    "static/media/visa.svg": "/react-shopping-mall/static/media/visa.0552d222a9e05e61d038b48bca547e26.svg",
+    "static/media/paypal.svg": "/react-shopping-mall/static/media/paypal.69a723994e65e65ecff1382b35107ac5.svg",
+    "index.html": "/react-shopping-mall/index.html",
+    "static/media/dinersClub.svg": "/react-shopping-mall/static/media/dinersClub.d462a9a7100940234ead2bbc1e4ffe60.svg",
+    "static/media/mastercard.svg": "/react-shopping-mall/static/media/mastercard.14233a00b7177466bd5ea6d0e21c9f77.svg",
+    "main.376e9ee2.css.map": "/react-shopping-mall/static/css/main.376e9ee2.css.map",
+    "main.785176ec.js.map": "/react-shopping-mall/static/js/main.785176ec.js.map",
+    "787.3f37af5e.chunk.js.map": "/react-shopping-mall/static/js/787.3f37af5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.376e9ee2.css",
+    "static/js/main.785176ec.js"
+  ]
+}
