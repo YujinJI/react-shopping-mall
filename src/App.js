@@ -16,16 +16,16 @@ function App() {
   const { fashionProducts, accessoryProducts, digitalProducts } =
     useContext(ProductContext);
   return (
-    <BrowserRouter basename={"https://yujinji.github.io/react-shopping-mall/"}>
+    <BrowserRouter>
       <input type='checkbox' id='side-menu' className='drawer-toggle' />
       <section className='drawer-content'>
         <Header />
         <section className='main pt-16'>
           <Routes>
-            <Route path='./' element={<Home />} />
-            <Route path='./product/:id' element={<Detail />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/product/:id' element={<Detail />} />
             <Route
-              path='./fashion'
+              path='/fashion'
               element={
                 <CategorySection
                   category={'패션'}
@@ -34,7 +34,7 @@ function App() {
               }
             />
             <Route
-              path='./accessory'
+              path='/accessory'
               element={
                 <CategorySection
                   category={'액세서리'}
@@ -43,7 +43,7 @@ function App() {
               }
             />
             <Route
-              path='./digital'
+              path='/digital'
               element={
                 <CategorySection
                   category={'디지털'}
@@ -51,7 +51,7 @@ function App() {
                 />
               }
             />
-            <Route path='./cart' element={<Cart />} />
+            <Route path='/cart' element={<Cart />} />
           </Routes>
         </section>
         <Footer />
