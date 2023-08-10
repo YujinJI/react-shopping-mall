@@ -51,7 +51,7 @@ const Header = (props) => {
         <h1 className='shrink-0 flex md:flex-none flex-1 mx-1 sm:mx-2'>
           <a
             className='text-lg text-gray-700 dark:text-white font-bold whitespace-nowrap'
-            href='./'
+            href='/'
           >
             React Shop
           </a>
@@ -59,19 +59,19 @@ const Header = (props) => {
         <div className='flex-none hidden md:flex md:flex-1 ml-2'>
           <a
             className='btn btn-ghost btn-sm rounded-btn text-gray-700 dark:text-white'
-            href='./fashion'
+            href='/fashion'
           >
             패션
           </a>
           <a
             className='btn btn-ghost btn-sm rounded-btn text-gray-700 dark:text-white'
-            href='./accessory'
+            href='/accessory'
           >
             액세서리
           </a>
           <a
             className='btn btn-ghost btn-sm rounded-btn text-gray-700 dark:text-white'
-            href='./digital'
+            href='/digital'
           >
             디지털
           </a>

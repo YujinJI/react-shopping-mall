@@ -53,7 +53,7 @@ const Detail = ({ props }) => {
                 <button className='btn btn-primary' onClick={clickAddToCart}>
                   장바구니에 담기
                 </button>
-                <a className='btn btn-outline ml-1' href='./cart'>
+                <a className='btn btn-outline ml-1' href='/cart'>
                   장바구니로 이동
                 </a>
               </div>

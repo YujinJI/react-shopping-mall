@@ -9,7 +9,7 @@ const SideMenu = (props) => {
         <li>
           <a
             className='!text-gray-700 active:!text-white dark:!text-white mt-12 py-3'
-            href='./fashion'
+            href='/fashion'
           >
             패션
           </a>
@@ -17,7 +17,7 @@ const SideMenu = (props) => {
         <li>
           <a
             className='!text-gray-700 active:!text-white dark:!text-white py-3'
-            href='./accessory'
+            href='/accessory'
           >
             액세서리
           </a>
@@ -25,7 +25,7 @@ const SideMenu = (props) => {
         <li>
           <a
             className='!text-gray-700 active:!text-white dark:!text-white py-3'
-            href='./digital'
+            href='/digital'
           >
             디지털
           </a>

@@ -25,7 +25,7 @@ const CategorySection = ({ category, productsInfo }) => {
         {Object.values(productsInfo).map((product) => (
           <Link
             className='card card-bordered border-gray-200 dark:border-gray-800 card-compact lg:card-normal'
-            to={`./product/${product.id}`}
+            to={`/product/${product.id}`}
             state={{ productInfo: product }}
             key={product.id}
           >
